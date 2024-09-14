@@ -1,17 +1,26 @@
 {
-<<<<<<< HEAD
-  "name": "chat-app",
+  "name": "chat-app-socket",
   "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Nikhil",
+  "license": "ISC",
   "devDependencies": {
     "prettier": "^3.2.5",
     "turbo": "^2.1.1",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.20.0",
+    "socket.io": "^4.7.5"
   },
   "engines": {
     "node": ">=18"
@@ -21,19 +30,4 @@
     "apps/*",
     "packages/*"
   ]
-=======
-  "name": "chat-app-socket",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nikhil",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.20.0",
-    "socket.io": "^4.7.5"
-  }
->>>>>>> 6b980a56152895fc75c4fd01303e3a8d8f74b550
 }
