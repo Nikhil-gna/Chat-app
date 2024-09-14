@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "chat-app",
   "private": true,
   "scripts": {
@@ -20,4 +21,19 @@
     "apps/*",
     "packages/*"
   ]
+=======
+  "name": "chat-app-socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.20.0",
+    "socket.io": "^4.7.5"
+  }
+>>>>>>> 6b980a56152895fc75c4fd01303e3a8d8f74b550
 }
