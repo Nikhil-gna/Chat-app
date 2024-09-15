@@ -69,6 +69,11 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 npx turbo link
 ```
 
+To See how data is organized in PostgreSQL via Prisma
+```
+npx prisma studio
+```
+It will up & running on port :5555
 ## Useful Links
 
 Learn more about the power of Turborepo:
